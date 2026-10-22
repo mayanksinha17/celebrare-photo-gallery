@@ -39,7 +39,7 @@ export function getInitialFavorites() {
     }
     return [];
   } catch (error) {
-    console.error('Failed to read favorites from localStorage:', error);
+    console.warn('Failed to parse favorites from localStorage, safely resetting to empty array:', error.message);
     return [];
   }
 }

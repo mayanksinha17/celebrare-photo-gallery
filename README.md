@@ -100,9 +100,10 @@ celebrare/
 
 ### Steps
 
-1. **Clone or navigate to the project directory**:
+1. **Clone the repository**:
    ```bash
-   cd Celebrare
+   git clone https://github.com/mayanksinha17/celebrare-photo-gallery.git
+   cd celebrare-photo-gallery
    ```
 
 2. **Install dependencies**:
